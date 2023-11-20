@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+body
+{
+    background-image: url("img/nuage1.jpg");
+}
+ul{
+    list-style:none;
+}
+.designe li{
+    float: left;
+    padding: 35px;
+}
+.designe li a{
+    text-decoration: none;
+}
+form{
+    padding: 35px;
+    text-align: right;
+}
+input[type="search"]{
+    font-size: 18px;
+}
+header .logo{
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+}
+header .logo span{
+    color: whitesmoke;
+}
+.menu{
+    background-color: rgb(113, 113, 206);
+    height: 80px;
+    margin: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+.style{
+    height: auto;
+    text-align: left;
+    border-collapse: collapse;
+    min-width: 440px;
+    width: 300px;
+    box-shadow: black;
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid white;
+}
+.style, a{
+    color: white;
+}
+th{
+    width: 200px;
+    color : white;
+    text-align: center;
+}
+tr, td{
+    padding: 15px 20px;
+}
+tbody tr:last-of-type{
+    border: 2px solid rgb(151, 22, 22);
+}
+tbody tr, td , th{
+    border: 1px solid black;
+    color: black;
+}
+#style{
+    text-align: center;
+    align-items: center;
+}
+.num{
+    text-align: center;
+    align-items: center;
+}
+.level
+{
+    text-align: center;
+    
+}

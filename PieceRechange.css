@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+body
+{
+    background-image: url("img/nuage1.jpg");
+}
+ul{
+    list-style:none;
+}
+.designe li{
+    float: left;
+    padding: 35px;
+}
+.designe li a{
+    text-decoration: none;
+}
+form{
+    padding: 35px;
+    text-align: right;
+}
+input[type="search"]{
+    font-size: 18px;
+}
+/*Scrollbar css*/
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    
+    background-color: rgb(113, 113, 206);
+}
+/*****************************couleur fond de la page*************************************/
+header .logo{
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+}
+header .logo span{
+    color: whitesmoke;
+}
+.menu{
+    background-color: rgb(113, 113, 206);
+    height: 80px;
+    margin: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+/*********************************couleur pour menu de navigation visible***************************************/
+ul li a{
+    color: white;
+    letter-spacing: 0.1rem;
+}
+ul li a:hover{
+/***************************************Couleur menu de navigaiton2 non visible************************************/
+    color:black;
+    text-decoration: underline;
+    transition: 0.3s, all;
+}
+a{
+    text-decoration: none;
+}
+.section_title{
+    text-transform: uppercase;
+    position: relative;
+    font-size: 25px;
+}
+.section_title:before{
+    position: absolute;
+    left: 10px;
+    bottom:0;
+    content: "";
+    background-color: orangered;
+    width: 100%;
+    height: 5px;
+    border-radius: 6px;
+}
+.section_title:after{
+    position: absolute;
+    top:0;
+    left: -10px;
+    content: "";
+    background-color: rgba(87, 20, 150, 0.637);
+    width: 100%;
+    height: 5px;
+    border-radius: 6px;
+}
+.images{
+    margin: 100px auto;
+    padding: 2 8%;
+}
+.images ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.images li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.665%;
+    transition: 0.5s;
+    height: 300px;
+    width: 28%;
+}
+.images li div{
+    width: 100%;
+    height: 60%;
+    margin-bottom:5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.images li div img{
+    width: 100%;
+    height: 100%;
+}
+.images li:hover{
+    transform: scale(1.1);
+    margin: 20px;
+}
+.images li span{
+    color :black;
+    font-size:18px;
+}
+/********************Section Motos*********************/
+#casques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.list_casques{
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.casque {
+    
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 20px;
+}
+.casques i{
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: white ;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.casque h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+.casque p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.casque a{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: 1px solid navy;
+    font-size: 12px;
+}
+#casques li span.prix{
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#casques li a{
+    color:navy;
+    padding: 5px 20px;
+    font-size: 12px;
+}
+/********************************************Blousson********************************/
+#Bloussons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.list_Bloussons{
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Blousson {
+    
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 20px;
+}
+.Bloussons i{
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: white ;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.Blousson h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+.Blousson p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Blousson a{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: 1px solid navy;
+    font-size: 12px;
+}
+#Bloussons li span.prix{
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#Bloussons li a{
+    color:navy;
+    padding: 5px 20px;
+    font-size: 12px;
+}
+/********************************************Genoux********************************/
+#Genoux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.list_Genoux{
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.genoux {
+    
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 20px;
+}
+.Genoux i{
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: white ;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.genoux h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+.genoux p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.genoux a{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: 1px solid navy;
+    font-size: 12px;
+}
+#Genoux li span.prix{
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#Genoux li a{
+    color:navy;
+    padding: 5px 20px;
+    font-size: 12px;
+}
+/********************************************canne a peche********************************/
+#Canne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.list_Canne{
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.canne {
+    
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 20px;
+}
+.Canne i{
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: white ;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.canne h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+.canne p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.canne a{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: 1px solid navy;
+    font-size: 12px;
+}
+#Canne li span.prix{
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#Canne li a{
+    color:navy;
+    padding: 5px 20px;
+    font-size: 12px;
+}

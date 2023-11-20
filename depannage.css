@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+body{
+    background-image: url("img/maintenance.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu{
+    background:rgba(87, 20, 150, 0.637);
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu ul li:hover{
+    background: rgb(151, 80, 218);
+    border-radius: 3px;
+}
+.sub-menu-l
+{
+    display: none;
+}
+.menu ul li:hover .sub-menu-l
+{
+    display: block;
+    position: absolute;
+    background: rgba(87, 20, 150, 0.637);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+header .logo{
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+}
+header .logo span{
+    color: white;
+}
+.menu .fa-brands
+{
+    margin-right: 8px;
+    color:burlywood;
+}
+.menu ul li:hover .sub-menu-l ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu-l ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.active, .menu ul li:hover .sub-menu-l ul li:last-child
+{
+    border-bottom: none;
+}
+.menu ul li:hover .sub-menu-l ul li a:hover
+{
+    color: orangered;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(151, 80, 218);
+
+}
+.level
+{
+    text-align: center;
+    
+}
+h1, h4{
+    color:white;
+}
+
+
+
